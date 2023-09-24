@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: "plus ", cursive;
+  color: white;
+  /* color: #e64199; */
+}
+.a {
+  padding: 50px;
+  height: 105vh;
+  background-image: url("./img/houbi.jpg");
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+}
+.s {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.h {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 390px) {
+  *{
+    color: #e64199;
+  }
+  .a {
+    background-image: url("./img/bousa.jpg");
+    background-size: cover;
+    grid-template-rows: 0.1fr 1fr;
+    max-width: 390px;
+    max-height: 100vh;
+    padding: 30px;
+  }
+  .s {
+    font-size: 30px;
+  }
+  .h {
+    font-size: 25px;
+  }
+}
